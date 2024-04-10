@@ -21,6 +21,14 @@
       {
         "before": ["g", "s"],
         "commands": ["editor.action.accessibleViewGoToSymbol"]
+      },
+      {
+        "before": ["p", "d"],
+        "commands": ["editor.action.peekDefinition"]
+      },
+      {
+        "before": ["p", "t"],
+        "commands": ["editor.action.peekTypeDefinition"]
       }
     ]
 }
