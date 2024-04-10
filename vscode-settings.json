@@ -1,0 +1,26 @@
+{
+    "vim.useSystemClipboard": true,
+    "vim.foldfix": true,
+    "vim.normalModeKeyBindings": [
+      {
+        "before": ["g", "i"],
+        "commands": ["editor.action.goToImplementation"]
+      }, 
+      {
+        "before": ["g", "r"],
+        "commands": ["editor.action.goToReferences"]
+      }, 
+      {
+        "before": ["g", "t"],
+        "commands": ["editor.action.goToTypeDefinition"]
+      }, 
+      {
+        "before": ["g", "b"],
+        "commands": ["editor.action.goToNextBreakpoint"]
+      }, 
+      {
+        "before": ["g", "s"],
+        "commands": ["editor.action.accessibleViewGoToSymbol"]
+      }
+    ]
+}
