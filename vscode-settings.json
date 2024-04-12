@@ -23,12 +23,24 @@
         "commands": ["editor.action.accessibleViewGoToSymbol"]
       },
       {
-        "before": ["p", "d"],
+        "before": ["s", "d"],
         "commands": ["editor.action.peekDefinition"]
       },
       {
-        "before": ["p", "t"],
+        "before": ["s", "t"],
         "commands": ["editor.action.peekTypeDefinition"]
+      },
+      {
+        "before": ["s", "g"],
+        "commands": ["quickgrep.action"]
+      },
+      {
+        "before": ["s", "f"],
+        "commands": ["actions.find"]
+      },
+      {
+        "before": ["s", "b"],
+        "commands": ["workbench.action.findInFiles"]
       }
     ]
 }
