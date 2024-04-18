@@ -5,6 +5,8 @@ alias kp="kubectl get pods"
 alias kn="kubectl get nodes"
 alias kl="kubectl logs"
 
+alias g=git
+
 function dcid() {
     docker ps -qf "ancestor=$1"
 }
