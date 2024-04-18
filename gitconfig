@@ -1,7 +1,10 @@
 [alias]
+    a = add
     st = status -s
-    ci = commit
+    c  = commit
+    cm = commit -m
     co = checkout
+    cob = checkout -b
     br = branch
     last = log -1 HEAD
     unstage = reset HEAD --
