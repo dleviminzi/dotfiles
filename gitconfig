@@ -1,6 +1,7 @@
 [alias]
     a = add
 	p = pull
+	pu = push
     st = status -s
     c  = commit
     cm = commit -m
