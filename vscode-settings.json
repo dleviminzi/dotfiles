@@ -39,7 +39,7 @@
         "commands": ["actions.find"]
       },
       {
-        "before": ["s", "b"],
+        "before": ["s", "F"],
         "commands": ["workbench.action.findInFiles"]
       }
     ]
