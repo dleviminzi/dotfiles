@@ -1,16 +1,16 @@
 [alias]
     a = add
-	p = pull
+	pl = pull
 	pu = push
     st = status -s
-    c  = commit
-    cm = commit -m
-    co = checkout
-    cob = checkout -b
+    cm  = commit
+    cmm = commit -m
+    ch = checkout
+    chb = checkout -b
     br = branch
     last = log -1 HEAD
     unstage = reset HEAD --
     visual = !gitk
     lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
     amend = commit --amend
-    pushf = push --force-with-lease
+    puf = push --force-with-lease
