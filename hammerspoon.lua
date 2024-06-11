@@ -13,7 +13,7 @@ local function remap(mods, key, pressFn)
 	hs.hotkey.bind(mods, key, pressFn, nil, pressFn)	
 end
 
-remap({'ctrl'}, 'x', pressFn('delete'))
+remap({'ctrl'}, 'x', pressFn('forwarddelete'))
 
 remap({'ctrl'}, 'h', pressFn('left'))
 remap({'ctrl'}, 'j', pressFn('down'))
