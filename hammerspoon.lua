@@ -20,10 +20,10 @@ for i = 1, 9 do
 end
 
 remap({ 'ctrl' }, '0', pressFn('f10'))
-remap({ 'ctrl' }, '-', pressFn('f10'))
-remap({ 'ctrl' }, '=', pressFn('f10'))
+remap({ 'ctrl' }, '-', pressFn('f11'))
+remap({ 'ctrl' }, '=', pressFn('f12'))
 remap({ 'ctrl' }, 'right', pressFn('f10'))
-remap({ 'ctrl' }, 'down', pressFn('f9'))
+remap({ 'ctrl' }, 'down', pressFn('f11'))
 
 remap({ 'ctrl' }, 'h', pressFn('left'))
 remap({ 'ctrl' }, 'j', pressFn('down'))
